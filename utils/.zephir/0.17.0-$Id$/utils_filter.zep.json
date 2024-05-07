@@ -1,0 +1,105 @@
+[
+    {
+        "type": "namespace",
+        "name": "Utils",
+        "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+        "line": 3,
+        "char": 5
+    },
+    {
+        "type": "class",
+        "name": "Filter",
+        "abstract": 0,
+        "final": 0,
+        "definition": {
+            "methods": [
+                {
+                    "visibility": [
+                        "public"
+                    ],
+                    "type": "method",
+                    "name": "alpha",
+                    "parameters": [
+                        {
+                            "type": "parameter",
+                            "name": "str",
+                            "const": 0,
+                            "data-type": "string",
+                            "mandatory": 0,
+                            "reference": 0,
+                            "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                            "line": 6,
+                            "char": 37
+                        }
+                    ],
+                    "statements": [
+                        {
+                            "type": "declare",
+                            "data-type": "char",
+                            "variables": [
+                                {
+                                    "variable": "ch",
+                                    "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                                    "line": 8,
+                                    "char": 16
+                                }
+                            ],
+                            "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                            "line": 10,
+                            "char": 11
+                        },
+                        {
+                            "type": "for",
+                            "expr": {
+                                "type": "variable",
+                                "value": "str",
+                                "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                                "line": 10,
+                                "char": 23
+                            },
+                            "value": "ch",
+                            "reverse": 0,
+                            "statements": [
+                                {
+                                    "type": "echo",
+                                    "expressions": [
+                                        {
+                                            "type": "variable",
+                                            "value": "ch",
+                                            "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                                            "line": 11,
+                                            "char": 20
+                                        },
+                                        {
+                                            "type": "string",
+                                            "value": "<br>",
+                                            "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                                            "line": 11,
+                                            "char": 26
+                                        }
+                                    ],
+                                    "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                                    "line": 12,
+                                    "char": 9
+                                }
+                            ],
+                            "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                            "line": 13,
+                            "char": 5
+                        }
+                    ],
+                    "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+                    "line": 6,
+                    "last-line": 14,
+                    "char": 19
+                }
+            ],
+            "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+            "line": 3,
+            "char": 5
+        },
+        "file": "\/var\/www\/html\/utils\/utils\/filter.zep",
+        "line": 3,
+        "char": 5
+    }
+]

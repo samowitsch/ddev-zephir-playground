@@ -1,0 +1,13 @@
+{
+    "require": {
+        "phalcon/zephir": "^0.17.0"
+    },
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "vendor",
+        "sort-packages": true,
+        "platform": {
+            "php": "8.2"
+        }
+    }
+}
