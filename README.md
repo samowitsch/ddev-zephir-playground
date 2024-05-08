@@ -1,5 +1,11 @@
 # DDEV Zephir playground
 
+![Zephir logo](docs/images/zephir_logo-105x36.svg)
+
+This is a playground to try [Zephir](https://docs.zephir-lang.com/latest/motivation/#why-zephir) for PHP extension creation.  
+Depending on which host this [DDEV Zephir playground](https://github.com/samowitsch/ddev-zephir-playground) is used  
+an x86 or arm64 PHP extension will be compiled.
+
 ## Installation
 
 ```shell
@@ -25,6 +31,6 @@ $ ddev xdebug toggle
 
 ## Links
 
-* https://zephir-lang.com/en
-* https://docs.zephir-lang.com/latest/introduction/
-* https://docs.zephir-lang.com/latest/installation/
+* [Zephir-lang](https://zephir-lang.com/en)
+* [Introducing Zephir](https://docs.zephir-lang.com/latest/introduction/)
+* [Getting Started, Installation, Tutorial](https://docs.zephir-lang.com/latest/installation/)

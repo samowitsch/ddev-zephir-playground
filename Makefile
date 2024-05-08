@@ -1,5 +1,5 @@
 .PHONY: build-all
-build-all: clean build stubs reload-php-fpm  ## build-all: clean build stubs
+build-all: clean build stubs reload-php-fpm  ## build-all: clean build stubs reload-php-fpm
 
 .PHONY: build
 build: ## build php module
